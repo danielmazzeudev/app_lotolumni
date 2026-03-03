@@ -11,20 +11,20 @@ import { ScrollView } from 'react-native';
 
 export default function Informations() {
     const tips = [
-        { title: "Equilíbrio entre Pares e Ímpares", info: "Historicamente, a maioria dos sorteios apresenta uma divisão equilibrada. Apostar em 3 números pares e 3 ímpares, ou 4 de um e 2 de outro, cobre mais de 70% dos resultados passados." },
-        { title: "Evite Sequências Longas", info: "Sorteios com números seguidos (ex: 01, 02, 03) are extremamente raros. Tente não colocar mais de dois números em sequência no seu cartão." },
-        { title: "Diversifique os Quadrantes", info: "Divida o volante em quatro partes iguais. Apostas que espalham os números entre os quadrantes têm maior incidência do que aquelas concentradas em apenas um lado do cartão." },
-        { title: "A Força dos Bolões", info: "Matematicamente, a melhor forma de aumentar suas chances sem gastar muito é participar de bolões. Jogar mais números em um único cartão aumenta exponencialmente a probabilidade de acerto." },
-        { title: "Finais dos Números", info: "Evite escolher muitos números que terminem com o mesmo dígito (ex: 05, 15, 25, 35). A variação de dígitos finais é uma característica comum nos sorteios oficiais." },
-        { title: "Atraso de Dezenas", info: "Algumas pessoas preferem jogar nas 'dezenas atrasadas', enquanto outras focam nas mais frequentes. O equilíbrio entre as duas táticas é o mais utilizado." },
-        { title: "A Regra das Colunas", info: "Raramente um sorteio premia mais de dois números da mesma coluna vertical. Ao marcar seu volante, tente espalhar os números em colunas diferentes." },
-        { title: "Evite Números 'Populares'", info: "Datas comemorativas (aniversários) limitam sua escolha até o número 31. Jogar números acima de 31 pode diminuir as chances de dividir o prêmio com muitos ganhadores." },
-        { title: "Soma das Dezenas", info: "Estatísticas mostram que, na maioria dos sorteios, a soma dos 6 números escolhidos fica entre 150 e 220. Valores muito baixos ou muito altos são menos frequentes." },
-        { title: "Distribuição por Linhas", info: "Procure não deixar mais de duas linhas horizontais do volante totalmente vazias, mas também evite concentrar todos os números em apenas duas linhas." },
-        { title: "Repetição de Concursos", info: "É muito raro (mas não impossível) que um número sorteado no concurso anterior se repita no atual. Analise o último sorteio antes de confirmar sua aposta." },
-        { title: "Mantenha a Regularidade", info: "Se você joga sempre os mesmos números, a persistência é sua aliada. Estatisticamente, mudar o jogo toda semana não altera a chance matemática, mas pode causar frustração se o jogo antigo sair." },
-        { title: "Dezenas Gêmeas", info: "Números como 11, 22, 33, 44 e 55 raramente aparecem em conjunto. Evite colocar mais de uma dessas dezenas no mesmo jogo." },
-        { title: "Uso do Gerador Inteligente", info: "Ferramentas que utilizam dados históricos para evitar combinações improváveis (como o nosso Gerador) ajudam a filtrar jogos com melhor chance estatística." }
+        { title: "Equilíbrio entre Pares e Ímpares", info: "O padrão mais comum na Lotofácil é 8 ímpares e 7 pares, ou 7 ímpares e 8 pares. Essas duas combinações aparecem em cerca de 56% dos sorteios." },
+        { title: "Repetição do Concurso Anterior", info: "Diferente da Mega, na Lotofácil é normal repetir de 8 a 10 números do sorteio anterior. A média histórica de repetição é de 9 dezenas." },
+        { title: "Números Primos no Volante", info: "Existem 9 números primos entre os 25 disponíveis (02, 03, 05, 07, 11, 13, 17, 19, 23). Os sorteios costumam ter entre 5 e 6 desses números." },
+        { title: "A Força da Moldura", info: "A 'moldura' são os números das bordas do volante (16 dezenas). A maioria dos resultados concentra de 9 a 11 números na moldura, deixando o restante para o centro." },
+        { title: "Sequências de Números", info: "Evite sequências muito longas. O padrão é encontrar sequências de 3 ou 4 números seguidos, mas raramente mais do que isso em uma única linha." },
+        { title: "Soma das Dezenas", info: "Estatisticamente, a soma dos 15 números sorteados costuma variar entre 180 e 210. Valores muito abaixo ou acima disso são raridades matemáticas." },
+        { title: "Distribuição por Linhas", info: "O padrão mais comum é a distribuição 3-3-3-3-3 (3 números por linha), ou variações como 4-3-3-3-2. Evite preencher uma linha inteira e deixar outra vazia." },
+        { title: "Números Fixos em Bolões", info: "Para aumentar as chances sem gastar muito, escolha de 5 a 7 números 'fixos' que você acredita que sairão e varie os demais em diferentes cartões." },
+        { title: "Dezenas Quentes e Frias", info: "Mantenha um equilíbrio. Escolha algumas dezenas que saíram nos últimos 3 concursos (quentes) e algumas que estão atrasadas (frias)." },
+        { title: "Frequência das Colunas", info: "Assim como nas linhas, as colunas tendem a ter um equilíbrio. O ideal é que cada coluna tenha pelo menos 1 número e no máximo 4." },
+        { title: "Evite Jogos Prontos", info: "Sequências óbvias como 01, 02, 03... 15 ou apenas números de um lado do volante são jogadas por milhares de pessoas e diluem o prêmio se ganharem." },
+        { title: "Aposta Combinada (16 a 20 números)", info: "Jogar com 16 números equivale a 16 apostas simples. É mais caro, mas a chance de acertar 14 e 15 pontos sobe consideravelmente." },
+        { title: "Análise de Quadrantes", info: "Divida o volante em 4 quadrantes. Tente distribuir seus números de forma que nenhum quadrante fique sobrecarregado ou totalmente vazio." },
+        { title: "Uso do Gerador Inteligente", info: "Nosso sistema utiliza esses filtros estatísticos para descartar combinações que nunca aconteceram na história da Lotofácil, otimizando seu dinheiro." }
     ];
 
     return (
