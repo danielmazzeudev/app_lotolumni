@@ -5,7 +5,7 @@ import styles from './OfferingCard.styles';
 
 export default function OfferingCard() {
     const currentYear = new Date().getFullYear();
-    const appVersion = '1.0.0';
+    const appVersion = '2.0.0';
 
     const openLink = () => {
         Linking.openURL('https://danielmazzeu.com.br/');

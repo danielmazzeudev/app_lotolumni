@@ -190,7 +190,7 @@ export default function Generator() {
                         style={[
                             styles.button, 
                             { 
-                                marginTop: 12,
+                                marginTop: 0,
                                 flexDirection: 'row', 
                                 alignItems: 'center', 
                                 justifyContent: 'center', 
