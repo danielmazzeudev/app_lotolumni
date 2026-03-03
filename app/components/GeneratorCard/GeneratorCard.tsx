@@ -9,8 +9,8 @@ import styles from './GeneratorCard.styles';
 const ADS_ENABLED = false;
 
 const adUnitId = __DEV__ 
-    ? 'ca-app-pub-3940256099942544/5224354917' 
-    : 'ca-app-pub-6198135878736596/2565603793';
+    ? 'ca-app-pub-3940256099942544/5224354917'
+    : 'ca-app-pub-6198135878736596/7745385077';
 
 const STORAGE_KEY = '@lotofacil_draws_cache';
 

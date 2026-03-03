@@ -16,7 +16,7 @@ export default function Search({ value, onChangeText, placeholder, onPress, isLo
     
     const spinValue = useRef(new Animated.Value(0)).current;
     const pulseAnim = useRef(new Animated.Value(1)).current;
-    const version = '2.0.0';
+    const version = '4.0.0';
 
     useEffect(() => {
         let isMounted = true;

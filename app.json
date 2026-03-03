@@ -2,7 +2,7 @@
   "expo": {
     "name": "Lotolumni",
     "slug": "lotolumni",
-    "version": "2.0.0",
+    "version": "4.0.0",
     "userInterfaceStyle": "light",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -27,10 +27,12 @@
       [
         "react-native-google-mobile-ads",
         {
-          "androidAppId": "ca-app-pub-xxxxxxxxxxxxxxxx~yyyyyyyyyy",
-          "iosAppId": "ca-app-pub-xxxxxxxxxxxxxxxx~yyyyyyyyyy"
+          "androidAppId": "ca-app-pub-6198135878736596~1371548411",
+          "iosAppId": "ca-app-pub-6198135878736596~1371548411"
         }
-      ]
+      ],
+      "@react-native-firebase/app",
+      "@react-native-firebase/crashlytics"
     ],
     "experiments": {
       "typedRoutes": true,
